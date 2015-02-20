@@ -21,15 +21,19 @@
 
         <!-- Edit the text below with an explanation of this step in the Git workflow -->
 
-        <p>Pull requests are used to synchronise your local repository with the remote one by taking (‘pulling’) changes from the remote repository and applying them immediately to the local repository. It combines the ‘fetch’ and ‘merge’ requests into one process.</p>
+        <p>Pull requests allow you to request that the owner of an original (sometimes <pre>upstream</pre>) repository pull changes you have made into the main repo.</p>
+        <p>Opening a pull request allows you and the code owner to discuss the changes you have made in a threaded discussion on Github.</p>
+        <p>Pull requests are different to using <pre>git pull</pre>, which will <pre>fetch</pre> and <pre>merge</pre> changes from a remote into your local repository.</p>
 
         <h3>How do you use pull requests?</h3>
 
         <!-- Edit the text below with illustrated examples of how to use PRs on Github -->
 
         <p>
-            git pull &lt;remotegt; &lt;local&gt;
+            Once you have made changes, stage and commit them on a new branch (see <a href="branching.html">Branching</a>). Then <a href="pushing.html">push</a> the changes up to your remote repository (usually <pre>origin</pre>) and click the 'Create Pull Request' button on Github. You can then choose which repository you are requesting the pull request for, and which codebase you want to pull in.
         </p>
+
+        <p>Once you have submitted the pull request, communicate any difficulties with the code owner in the threaded discussion. They might ask you to change some code, especially if it is raising conflicts for them. Once they are satisfied with the changes you have made, the code owner can confirm the pull request from the thread. You've just contributed your code to the codebase!</p>
 
         <h3>Go to...</h3>
 
